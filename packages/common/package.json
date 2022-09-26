@@ -1,0 +1,25 @@
+{
+  "name": "common",
+  "version": "0.0.0",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ./src/*.ts*"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-custom": "workspace:*",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "tsconfig": "workspace:*",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^5.38.0",
+    "zod": "^3.19.1"
+  }
+}
